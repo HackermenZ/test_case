@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        
+        {
+            "name": "(lldb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "MIMode": "lldb"
+        },
+        {
+            "type": "java",
+            "name": "MenuManager",
+            "request": "launch",
+            "mainClass": "MenuManager",
+            "projectName": "VSCODE_c5bb6f3"
+        },
+        {
+            "type": "java",
+            "name": "RestaurantMenu",
+            "request": "launch",
+            "mainClass": "RestaurantMenu",
+            "projectName": "VSCODE_c5bb6f3"
+        },
+        {
+            "type": "java",
+            "name": "task2",
+            "request": "launch",
+            "mainClass": "SWE_Offline.task2",
+            "projectName": "VSCODE_c5bb6f3"
+        },
+        {
+            "type": "java",
+            "name": "task2",
+            "request": "launch",
+            "mainClass": "task2",
+            "projectName": "VSCODE_c5bb6f3"
+        },
+        {
+            "type": "java",
+            "name": "task1",
+            "request": "launch",
+            "mainClass": "task1",
+            "projectName": "VSCODE_c5bb6f3"
+        },
+        {
+            "name": "C/C++: clang++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        },
+        {
+            "name": "C/C++: g++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++ build active file"
+        }
+    ],
+    "version": "2.0.0"
+}

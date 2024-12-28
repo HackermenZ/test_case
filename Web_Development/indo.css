@@ -1,0 +1,39 @@
+h2{
+    color: purple;
+    font-style: italic;
+    background-color: rgb(89,151,0);
+    
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI',Arial,sans-serif;
+}
+button{
+    background-color: blue;
+    color: red;
+
+}
+p{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+a{
+    color: red;
+    font-weight: 700;
+    text-decoration:white underline wavy;
+    letter-spacing:15px;
+    font-size: 80px;
+}
+h3{
+    color: blue;
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    text-decoration: wavy underline red;
+}
